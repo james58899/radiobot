@@ -48,6 +48,7 @@
     "ytdl-core": "^0.15.2"
   },
   "optionalDependencies": {
+    "bufferutil": "^3.0.0",
     "discord.js": "^11.1.0",
     "erlpack": "github:hammerandchisel/erlpack",
     "node-opus": "^0.2.6",
