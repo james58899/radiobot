@@ -79,6 +79,7 @@
 	],
 	"queueSize": 20,
 	"loopSize": 20,
+	"maxSongLength": 900,
 	"debug": {
 		"logMemoryUsage": false,
 		"useJavascriptMixer": false
