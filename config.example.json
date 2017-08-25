@@ -46,7 +46,8 @@
 		"streamOptions": {
 			"seek": 0,
 			"volume": 1,
-			"passes": 1
+			"passes": 1,
+			"bitrate": 64
 		},
 		"guild": {
 			"ROOM_ID_HERE" : {
