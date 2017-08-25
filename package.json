@@ -45,12 +45,13 @@
     "request": "^2.81.0",
     "socket.io": "^2.0.3",
     "url-regex": "^4.1.1",
-    "ytdl-core": "^0.15.2"
+    "ytdl-core": "^0.16.2"
   },
   "optionalDependencies": {
-    "bufferutil": "^3.0.0",
+    "bufferutil": "^3.0.2",
     "discord.js": "github:hydrabolt/discord.js#11.1-dev",
     "erlpack": "github:hammerandchisel/erlpack",
+    "node-opus": "^0.2.6",
     "sodium": "^2.0.1",
     "uws": "^8.14.1"
   }
