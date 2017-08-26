@@ -26,7 +26,7 @@ function parse(url) {
 			
 			resolve({
 				title: res.title,
-				artist: res.author,
+				artist: res.author.name,
 				selected: selected,
 				url: selected.url
 			});
