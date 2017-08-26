@@ -36,7 +36,8 @@
 		"admin": [ "YOUR_TELEGRAM_USERNAME" ],
 		"logForward": "@log_channel_here",
 		"playList": "@play_list_channel_here",
-		"PWRTelegram": false
+		"PWRTelegram": false,
+		"cache": true
 	},
 	"discord": {
 		"debug": false,
