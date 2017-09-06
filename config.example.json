@@ -23,7 +23,7 @@
 	},
 	"opus": {
 		"enabled": true,
-		"normalize": false
+		"bitrate": 256
 	},
 	"hls": {
 		"enabled": false,
@@ -40,6 +40,8 @@
 		"cache": true
 	},
 	"discord": {
+		"enabled": false,
+		"bitrate": 256,
 		"debug": false,
 		"token": "YOUR_DISCORD_TOKEN",
 		"startMessage": "",

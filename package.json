@@ -11,7 +11,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "install": "(cd native_mixer && node-gyp configure build) > build.log 2>&1 || exit 0",
+    "install": "cd native_mixer && node-gyp configure build",
     "start": "node index.js",
     "eslint": "eslint --fix *.js lib/*.js lib/html5_player/index.js lib/microphone/index.js streaming/ url_handlers/ utils/",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -31,6 +31,7 @@
     "bluebird": "^3.5.0",
     "bluebird-retry": "^0.11.0",
     "buffer-v6-polyfill": "^1.0.5",
+    "deep-assign": "^2.0.0",
     "express": "^4.15.4",
     "ffmpeg-binaries": "^3.2.2-3",
     "fs-extra": "^4.0.1",
@@ -49,7 +50,7 @@
   },
   "optionalDependencies": {
     "bufferutil": "^3.0.2",
-    "discord.js": "github:hydrabolt/discord.js#11.1-dev",
+    "discord.js": "github:mmis1000/discord.js#0ae8d8f6bf24e075a21e91aea65ca3e8c762dc79",
     "erlpack": "github:hammerandchisel/erlpack",
     "node-opus": "^0.2.6",
     "sodium": "^2.0.1",
